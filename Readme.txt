@@ -7,8 +7,24 @@ Note - Experiments,improvement and Learning in this project are based on the pap
 Important Instructions
 	•	The Python Notebook - CS677_Shiva_Kowsick_CL-GEM_MNIST.ipynb has all the  commands below - it will import all necessary modules, files accordingly
 	•	Make sure to download both the Notebook CS677_Shiva_Kowsick_CL-GEM_MNIST.ipynb and the entire GIT hub project to get the dependent files.
-	•	Results of GEM and all other models are located under /results folder
+  •	Results of GEM and all other models with different parameters are as follows
 
+Results :
+
+Version | location | method | dataset | learning rate | batch size | time taken
+--- | --- | --- | --- |---
+V1 | /results/results v1 | single | mnist rotations | 0.003 | 10 | 2m
+ |  |  | mnist permutations | 0.03 | 10 | 2m 30s
+ |  |  | CIFAR_100 | 1.0 | 10 | 3m
+ |  | GEM | mnist permutations | 0.1 | 10 | 6m 30s
+ |  |  | mnist permutations | 0.1 | 10 | 8m 30s
+ |  |  | CIFAR_100 | 0.1 | 10 | 3h 30m
+V2 | /results/results v2 | single | mnist rotations | 0.001 | 10 | 2m
+ |  |  | mnist permutations | 0.01 | 10 | 2m 30s
+ |  |  | CIFAR_100 | 0.1 | 10 | 3m
+ |  | GEM | mnist permutations | 0.3 | 10 | 5m 30s
+ |  |  | mnist permutations | 0.3 | 10 | 7sm 30s
+ |  |  | CIFAR_100 | 0.3 | 10 | 2h 45m
 
 Config Options :
 
