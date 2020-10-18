@@ -12,7 +12,7 @@ Important Instructions
 Results :
 
 Version 	 location 	 method 	 dataset 	    learning rate	batch size 	time taken
-=========================================================================================================================
+==================================================================================================================
 V1 	 /results/results v1 	 single 	 mnist rotations 	0.003		10	 	2m
 			 			 mnist permutations 	0.03		10	 	2m 30s
 			 			 CIFAR_100 		1		10	 	3m
