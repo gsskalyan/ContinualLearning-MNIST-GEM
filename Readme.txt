@@ -12,20 +12,31 @@ Important Instructions
 Results :
 
 Version | location | method | dataset | learning rate | batch size | time taken
---- | --- | --- | --- |---
+--- | --- | --- | --- |--- | --- | --- 
 V1 | /results/results v1 | single | mnist rotations | 0.003 | 10 | 2m
+--- | --- | --- | --- |--- | --- | --- 
  |  |  | mnist permutations | 0.03 | 10 | 2m 30s
+ --- | --- | --- | --- |--- | --- | --- 
  |  |  | CIFAR_100 | 1.0 | 10 | 3m
+ --- | --- | --- | --- |--- | --- | --- 
  |  | GEM | mnist permutations | 0.1 | 10 | 6m 30s
+ --- | --- | --- | --- |--- | --- | --- 
  |  |  | mnist permutations | 0.1 | 10 | 8m 30s
+ --- | --- | --- | --- |--- | --- | --- 
  |  |  | CIFAR_100 | 0.1 | 10 | 3h 30m
+ --- | --- | --- | --- |--- | --- | --- 
 V2 | /results/results v2 | single | mnist rotations | 0.001 | 10 | 2m
+--- | --- | --- | --- |--- | --- | --- 
  |  |  | mnist permutations | 0.01 | 10 | 2m 30s
+ --- | --- | --- | --- |--- | --- | --- 
  |  |  | CIFAR_100 | 0.1 | 10 | 3m
+ --- | --- | --- | --- |--- | --- | --- 
  |  | GEM | mnist permutations | 0.3 | 10 | 5m 30s
+ --- | --- | --- | --- |--- | --- | --- 
  |  |  | mnist permutations | 0.3 | 10 | 7sm 30s
+ --- | --- | --- | --- |--- | --- | --- 
  |  |  | CIFAR_100 | 0.3 | 10 | 2h 45m
-
+--- | --- | --- | --- |--- | --- | --- 
 Config Options :
 
 MNIST_ROTA="--n_layers 2 --n_hiddens 100 --data_path data/ --save_path results/ --batch_size 10 --log_every 100 --samples_per_task 1000 --data_file mnist_rotations.pt    --cuda no  --seed 0"
