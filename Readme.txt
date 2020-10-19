@@ -1,13 +1,20 @@
 Project - Continual learning
 Option - MNIST (METHOD : GRADIENT EPISODIC MEMORY - GEM)
 Group - 8
-Members - Shivakalyan Soundarathiagarajan and Kowsick Venkatachalapathi
+Members
+	- 	Shivakalyan Soundarathiagarajan (UCID - ss4477)
+	-	Kowsick Venkatachalapathi (UCID - KV322)
+	-	Adish Vakharia (UCID - AAV57)
 Note - Experiments,improvement and Learning in this project are based on the paper http://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf
 
 Important Instructions
-	•	The Python Notebook - CS677_Shiva_Kowsick_CL-GEM_MNIST.ipynb has all the  commands below - it will import all necessary modules, files accordingly
-	•	Make sure to download both the Notebook CS677_Shiva_Kowsick_CL-GEM_MNIST.ipynb and the entire GIT hub project to get the dependent files.
-  •	Results of GEM and all other models with different parameters are as follows
+	•	The Python Notebook - V1 CS677_Shiva_Kowsick_CL-GEM_MNIST.ipynb and V2 CS677_Shiva_Kowsick_CL-GEM_MNIST.ipynb has all the  commands below - it will import all necessary modules, files accordingly
+	•	Make sure to download both the Notebooks CS677_Shiva_Kowsick_CL-GEM_MNIST.ipynb and the entire GIT hub project (i.e, all python files) to get the dependent files.
+	•	Refer - Project_CL_DOCS.docx that describes our understanding of Project implementation.
+	•	Results in pdf can be found in 
+			https://github.com/gsskalyan/ContinualLearning-MNIST-GEM/tree/master/results/results%20v1
+			https://github.com/gsskalyan/ContinualLearning-MNIST-GEM/tree/master/results/results%20v2	
+  	•	Results of GEM and all other models with different parameters are as follows
 
 Results :
 
